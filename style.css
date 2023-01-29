@@ -1,37 +1,26 @@
+/* utilities and common classes */
 * {
   margin: 0;
+  padding: 0;
 }
 
-/* header styles starts */
-.heading {
-  height: 100vh;
-  background-image: linear-gradient(360deg, #121212 0%, #12121200 100%),
-    url("./images/donation0.jpg");
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading-items {
+.items {
   width: 50%;
-  text-align: center;
-  color: #ffffff;
 }
 
-.heading-title {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 65px;
-}
-
-.heading-description {
+.description {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   margin: 20px 0 30px;
 }
 
-.heading-button {
+.title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.primary-button {
   padding: 16px 20px;
   background-color: #ff5959;
   border-radius: 5px;
@@ -41,4 +30,85 @@
   font-size: 20px;
   color: #ffffff;
 }
-/* header styles ends */
+
+section {
+  padding-top: 130px;
+}
+
+/* header starts */
+.heading {
+  height: 100vh;
+  background-image: linear-gradient(360deg, #121212 0%, #12121200 100%),
+    url("./images/donation0.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading-items {
+  color: #ffffff;
+}
+
+.heading-title {
+  font-size: 65px;
+}
+
+/* header ends */
+/* main starts */
+/* donate starts */
+.donate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.donate-items {
+  width: 55%;
+}
+
+.donate-title {
+  color: #121212;
+}
+
+.donate-description {
+  color: #707070;
+  margin-bottom: 50px;
+}
+
+.donate-amount-button {
+  background-color: #fafafa;
+  border-radius: 5px;
+  width: 135px;
+  height: 123px;
+  border: 0;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  margin-right: 22px;
+}
+
+.donate-amount-buttons button:nth-child(2) {
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+  color: #ff5959;
+}
+
+.donate-items input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #b3b3b3;
+  margin: 60px 0 30px;
+  padding-bottom: 10px;
+}
+/* donate ends */
+/* main ends */
